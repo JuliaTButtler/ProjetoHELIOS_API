@@ -20,10 +20,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/regraalerta
-        // ==========================
 
         [HttpGet]
 
@@ -48,10 +46,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/regraalerta/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -93,10 +89,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR SENSOR
         // api/regraalerta/sensor/TEMPERATURA
-        // ==========================
 
         [HttpGet(
             "sensor/{tipoSensor}"
@@ -148,10 +142,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR STATUS
         // api/regraalerta/ativo/S
-        // ==========================
 
         [HttpGet(
             "ativo/{ativo}"
@@ -203,10 +195,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/regraalerta
-        // ==========================
 
         [HttpPost]
 
@@ -325,10 +315,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/regraalerta/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -427,10 +415,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/regraalerta/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

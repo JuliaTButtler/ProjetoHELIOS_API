@@ -20,10 +20,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/logevento
-        // ==========================
 
         [HttpGet]
 
@@ -52,10 +50,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/logevento/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -97,10 +93,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR TIPO
         // api/logevento/tipo/ALERTA
-        // ==========================
 
         [HttpGet(
             "tipo/{tipo}"
@@ -156,10 +150,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR NIVEL
         // api/logevento/nivel/CRITICO
-        // ==========================
 
         [HttpGet(
             "nivel/{nivel}"
@@ -217,10 +209,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/logevento
-        // ==========================
 
         [HttpPost]
 
@@ -287,10 +277,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/logevento/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -364,10 +352,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/logevento/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

@@ -19,10 +19,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/alerta
-        // ==========================
 
         [HttpGet]
 
@@ -46,10 +44,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/alerta/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -82,10 +78,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR SENSOR
         // api/alerta/sensor/1
-        // ==========================
 
         [HttpGet("sensor/{sensorId}")]
 
@@ -130,10 +124,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR MODULO
         // api/alerta/modulo/1
-        // ==========================
 
         [HttpGet("modulo/{moduloId}")]
 
@@ -178,10 +170,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR CRITICIDADE
         // api/alerta/criticidade/ALTO
-        // ==========================
 
         [HttpGet("criticidade/{nivel}")]
 
@@ -227,10 +217,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/alerta
-        // ==========================
 
         [HttpPost]
 
@@ -337,10 +325,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/alerta/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -423,10 +409,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/alerta/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

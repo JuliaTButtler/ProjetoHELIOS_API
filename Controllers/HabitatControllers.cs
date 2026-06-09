@@ -19,10 +19,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET — TODOS
         // api/habitat
-        // ==========================
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -37,10 +35,8 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // GET — POR ID
         // api/habitat/1
-        // ==========================
 
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -63,10 +59,8 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // GET — STATUS
         // api/habitat/status/OPERACIONAL
-        // ==========================
 
         [HttpGet("status/{status}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -96,10 +90,8 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // GET — TIPO
         // api/habitat/tipo/PESQUISA
-        // ==========================
 
         [HttpGet("tipo/{tipo}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -129,10 +121,8 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // POST
         // api/habitat
-        // ==========================
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -230,10 +220,8 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // PUT
         // api/habitat/1
-        // ==========================
 
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -289,10 +277,8 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // DELETE
         // api/habitat/1
-        // ==========================
 
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

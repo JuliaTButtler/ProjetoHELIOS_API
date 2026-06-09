@@ -43,9 +43,7 @@ DbContextOptions<AppDbContext> options
     {
         base.OnModelCreating(modelBuilder);
 
-        // ==================
         // TABELAS
-        // ==================
 
         modelBuilder.Entity<Habitat>()
             .ToTable("API_HELIOS_HABITAT");
@@ -81,18 +79,14 @@ DbContextOptions<AppDbContext> options
             .ToTable("API_HELIOS_LOG_EVENTO");
 
 
-        // ==================
         // CONSTRAINTS
-        // ==================
 
         modelBuilder.Entity<Usuario>()
             .HasIndex(u => u.Email)
             .IsUnique();
 
 
-        // ==================
         // PRECISION
-        // ==================
 
         modelBuilder.Entity<ModuloHabitacional>()
             .Property(m => m.IndiceRisco)
@@ -119,9 +113,7 @@ DbContextOptions<AppDbContext> options
             .HasPrecision(10, 2);
 
 
-        // ==================
         // RELACIONAMENTOS
-        // ==================
 
 
         // Habitat -> Modulo

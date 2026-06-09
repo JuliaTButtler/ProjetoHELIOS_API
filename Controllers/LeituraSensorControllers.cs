@@ -20,10 +20,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/leiturasensor
-        // ==========================
 
         [HttpGet]
 
@@ -49,10 +47,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/leiturasensor/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -88,10 +84,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR SENSOR
         // api/leiturasensor/sensor/1
-        // ==========================
 
         [HttpGet(
             "sensor/{sensorId}"
@@ -141,10 +135,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR STATUS
         // api/leiturasensor/status/NORMAL
-        // ==========================
 
         [HttpGet(
             "status/{status}"
@@ -192,10 +184,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/leiturasensor
-        // ==========================
 
         [HttpPost]
 
@@ -307,10 +297,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/leiturasensor/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -369,10 +357,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/leiturasensor/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

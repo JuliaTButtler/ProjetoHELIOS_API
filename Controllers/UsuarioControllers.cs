@@ -21,10 +21,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/usuario
-        // ==========================
 
         [HttpGet]
 
@@ -48,10 +46,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/usuario/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -91,10 +87,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR EMAIL
         // api/usuario/email/x
-        // ==========================
 
         [HttpGet("email/{email}")]
 
@@ -141,10 +135,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR TIPO
         // api/usuario/tipo/ADMIN
-        // ==========================
 
         [HttpGet("tipo/{tipo}")]
 
@@ -196,10 +188,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/usuario
-        // ==========================
 
         [HttpPost]
 
@@ -319,10 +309,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/usuario/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -399,10 +387,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/usuario/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

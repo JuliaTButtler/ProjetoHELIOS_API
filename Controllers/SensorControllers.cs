@@ -20,10 +20,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/sensor
-        // ==========================
 
         [HttpGet]
 
@@ -47,10 +45,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/sensor/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -89,10 +85,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR MODULO
         // api/sensor/modulo/1
-        // ==========================
 
         [HttpGet("modulo/{moduloId}")]
 
@@ -141,10 +135,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR TIPO
         // api/sensor/tipo/TEMPERATURA
-        // ==========================
 
         [HttpGet("tipo/{tipo}")]
 
@@ -187,10 +179,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/sensor
-        // ==========================
 
         [HttpPost]
 
@@ -324,10 +314,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/sensor/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -401,10 +389,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/sensor/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

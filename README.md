@@ -55,6 +55,128 @@ Testes via Swagger.
 * C#
 * .NET 8
 
+## Diagrama — Processo de Desenvolvimento da API HELIOS
+
+```text
+INÍCIO
+ │
+ ▼
+Criar pasta do projeto
+HeliosAPI
+ │
+ ▼
+Criar repositório Git
+ProjetoHELIOS_API
+ │
+ ▼
+Abrir no VS Code
+ │
+ ▼
+Criar projeto Web API
+dotnet new webapi
+ │
+ ▼
+Restaurar e compilar
+dotnet restore
+dotnet build
+ │
+ ▼
+Ajustar versão do .NET
+(net10 → net8)
+ │
+ ├── Editar .csproj
+ ├── Atualizar pacotes
+ ├── Remover OpenApi incompatível
+ └── Instalar Swagger
+ │
+ ▼
+Configurar ambiente
+dotnet run
+global.json
+SDK 8 fixado
+ │
+ ▼
+Criar estrutura do projeto
+ │
+ ├── Models
+ ├── Data
+ └── AppDbContext
+ │
+ ▼
+Criar modelos iniciais
+ │
+ ├── Habitat
+ ├── ModuloHabitacional
+ └── Usuario
+ │
+ ▼
+Instalar dependências
+ │
+ ├── Entity Framework Core
+ ├── EF Core Design
+ └── Oracle.EntityFrameworkCore
+ │
+ ▼
+Configurar aplicação
+ │
+ ├── Program.cs
+ └── appsettings.json
+ │
+ ▼
+Criar modelos restantes
+ │
+ ├── Ocupante
+ ├── Reserva
+ ├── Sensor
+ ├── LeituraSensor
+ ├── Alerta
+ ├── RegraAlerta
+ ├── AcaoAutomatica
+ └── LogEvento
+ │
+ ▼
+Configurar AppDbContext
+ │
+ ├── DbSets
+ ├── Relacionamentos
+ ├── Precision
+ └── Constraints
+ │
+ ▼
+Gerar Migration
+dotnet ef migrations add InitialCreate
+ │
+ ▼
+Aplicar Banco Oracle
+dotnet ef database update
+ │
+ ▼
+Criar Controllers
+ │
+ ├── Habitat
+ ├── ModuloHabitacional
+ ├── Usuario
+ ├── Ocupante
+ ├── Reserva
+ ├── Sensor
+ ├── LeituraSensor
+ ├── Alerta
+ ├── RegraAlerta
+ ├── AcaoAutomatica
+ └── LogEvento
+ │
+ ▼
+Executar aplicação
+dotnet run
+ │
+ ▼
+Realizar testes
+Swagger
+ │
+ ▼
+FIM
+```
+
 
 # Funcionalidades Implementadas
 

@@ -23,10 +23,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/ocupante
-        // ==========================
 
         [HttpGet]
 
@@ -53,10 +51,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/ocupante/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -98,10 +94,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR STATUS
         // api/ocupante/status/ATIVO
-        // ==========================
 
         [HttpGet("status/{status}")]
 
@@ -153,10 +147,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR FUNÇÃO
         // api/ocupante/funcao/ENGENHEIRO
-        // ==========================
 
         [HttpGet("funcao/{funcao}")]
 
@@ -210,10 +202,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/ocupante
-        // ==========================
 
         [HttpPost]
 
@@ -299,10 +289,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/ocupante/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -370,10 +358,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/ocupante/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

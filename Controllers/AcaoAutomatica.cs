@@ -20,10 +20,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/acaoautomatica
-        // ==========================
 
         [HttpGet]
 
@@ -50,10 +48,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/acaoautomatica/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -95,10 +91,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ALERTA
         // api/acaoautomatica/alerta/1
-        // ==========================
 
         [HttpGet(
             "alerta/{alertaId}"
@@ -148,10 +142,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR STATUS
         // api/acaoautomatica/status/EXECUTADA
-        // ==========================
 
         [HttpGet(
             "status/{status}"
@@ -203,10 +195,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/acaoautomatica
-        // ==========================
 
         [HttpPost]
 
@@ -291,10 +281,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/acaoautomatica/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -383,10 +371,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/acaoautomatica/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

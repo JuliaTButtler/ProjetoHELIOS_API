@@ -20,10 +20,8 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
         // api/reserva
-        // ==========================
 
         [HttpGet]
 
@@ -47,10 +45,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR ID
         // api/reserva/1
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -83,10 +79,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR OCUPANTE
         // api/reserva/ocupante/1
-        // ==========================
 
         [HttpGet("ocupante/{ocupanteId}")]
 
@@ -131,10 +125,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // GET POR MODULO
         // api/reserva/modulo/1
-        // ==========================
 
         [HttpGet("modulo/{moduloId}")]
 
@@ -179,10 +171,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // POST
         // api/reserva
-        // ==========================
 
         [HttpPost]
 
@@ -272,10 +262,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // PUT
         // api/reserva/1
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -388,10 +376,8 @@ namespace ProjetoHELIOS_API.Controllers
 
 
 
-        // ==========================
         // DELETE
         // api/reserva/1
-        // ==========================
 
         [HttpDelete("{id}")]
 

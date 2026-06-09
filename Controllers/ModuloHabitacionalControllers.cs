@@ -20,9 +20,7 @@ namespace ProjetoHELIOS_API.Controllers
             _context = context;
         }
 
-        // ==========================
         // GET TODOS
-        // ==========================
 
         [HttpGet]
 
@@ -45,9 +43,7 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // GET POR ID
-        // ==========================
 
         [HttpGet("{id}")]
 
@@ -87,9 +83,7 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // GET POR HABITAT
-        // ==========================
 
         [HttpGet(
             "habitat/{habitatId}"
@@ -131,9 +125,7 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // GET POR STATUS
-        // ==========================
 
         [HttpGet(
             "status/{status}"
@@ -176,9 +168,7 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // POST
-        // ==========================
 
         [HttpPost]
 
@@ -327,9 +317,7 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // PUT
-        // ==========================
 
         [HttpPut("{id}")]
 
@@ -432,9 +420,7 @@ namespace ProjetoHELIOS_API.Controllers
         }
 
 
-        // ==========================
         // DELETE
-        // ==========================
 
         [HttpDelete("{id}")]
 
