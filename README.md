@@ -13,6 +13,9 @@ Integrantes:
 
    Mariana Xavier Quispe, 566357, 2TDSA 
 
+link do repositório: https://github.com/JuliaTButtler/ProjetoHELIOS_API.git
+Link do video de desenvolvimento: https://youtu.be/TpZ5cX0QgS4
+Link do video pitch: https://youtu.be/oT4gtPXb6eU
 
 # HELIOS API
 
