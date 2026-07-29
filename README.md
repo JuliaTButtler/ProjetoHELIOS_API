@@ -473,17 +473,6 @@ Os pacotes NuGet utilizados no projeto serão restaurados automaticamente ao abr
 ---
 
 # Configurar conexão com o banco Oracle
-O projeto já está configurado com as credenciais do banco Oracle utilizadas durante o desenvolvimento.
-
-Credenciais utilizadas:
-Login: RM564975
-Senha: 050607
-Local Host: oracle.fiap.com.br
-Porta: 1521
-Service: ORCL
-
-Caso queira usar outras credenciais, siga as instruções:
-
 No arquivo:
 
 appsettings.json
@@ -498,7 +487,9 @@ configure sua string de conexão Oracle:
 
 # Executar as migrations
 
-As tabelas e migrations já foram criadas previamente durante o desenvolvimento do projeto, portanto não é necessário executar as migrations novamente para utilização da aplicação.
+As tabelas e migrations já foram criadas previamente durante o desenvolvimento do projeto, caso queria recriar manualmente digite no terminal:
+
+dotnet ef migrations add InitialCreate
 
 Caso deseje recriar o banco manualmente, utilize:
 
